@@ -392,7 +392,6 @@ const ResumeContainerStyled = styled.div`
 const ResumeWrapperStyled = styled.div`
   display: flex;
   width: 400px;
-  /* justify-content: space-between; */
   align-items: center;
   margin-bottom: 8px;
 `;
@@ -408,7 +407,7 @@ const ResumeStyled = styled.div`
   line-height: 23px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap; // 텍스트가 길어져도 한 줄에 나타나도록 설정
+  white-space: nowrap;
 
   padding: 4px 8px;
   border: 1px solid ${Colors.mainPurple};
